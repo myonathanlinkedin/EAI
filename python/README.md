@@ -65,22 +65,3 @@ generator.create_performance_dashboard()
 generator.create_business_impact_chart()
 generator.create_paper_figure_1()
 ```
-
-## 🎨 Customization
-
-The charts are designed to be:
-- **Convincing** - Highlight key advantages and metrics
-- **Professional** - Academic and business-ready styling
-- **Comprehensive** - Cover all important performance aspects
-- **Comparative** - Show improvements over traditional methods
-
-## 📊 Sample Results
-
-Based on the latest benchmark:
-- **10 Total Requests** processed successfully
-- **100% Success Rate** achieved
-- **23.7s Average Response Time** (vs 4+ hours manual)
-- **72% Average Confidence** in decisions
-- **90% Time Savings** over manual processes
-
-These charts effectively demonstrate the EAI system's superior performance and business value!
