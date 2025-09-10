@@ -1,6 +1,6 @@
 # Enterprise Approval Intelligence (EAI)
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/download)
+[![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/download)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/your-org/eai)
 [![LLM](https://img.shields.io/badge/LLM-qwen2.5--7b--instruct--1m-orange.svg)](https://lmstudio.ai)
@@ -224,14 +224,6 @@ Policies are defined in JSON format in the `config/policies/` directory:
   ]
 }
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
 
 ## 📄 License
 
