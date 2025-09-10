@@ -1,5 +1,12 @@
 # Enterprise Approval Intelligence (EAI)
 
+[![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/download)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/your-org/eai)
+[![LLM](https://img.shields.io/badge/LLM-qwen2.5--7b--instruct--1m-orange.svg)](https://lmstudio.ai)
+[![Docker](https://img.shields.io/badge/Docker-Supported-blue.svg)](https://www.docker.com/)
+[![Tests](https://img.shields.io/badge/Tests-Passing-green.svg)](https://github.com/your-org/eai)
+
 A C# .NET-based enterprise framework for transforming approvals from traditional status-based workflows to intelligent, autonomous decision-making systems powered by local LLM integration (LM Studio/qwen2.5-7b-instruct-1m) with enterprise-grade security, performance, and compliance.
 
 ## 🚀 Features
@@ -243,42 +250,6 @@ Enterprise Approval Intelligence (EAI)
 Copyright (c) 2025 Mateus Yonathan
 Licensed under the Apache License, Version 2.0
 ```
-
-## 🆘 Support
-
-- **Documentation**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/your-org/eai/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/eai/discussions)
-
-## 📊 Current Status
-
-✅ **Completed Features**:
-- Local LLM integration with LM Studio/qwen2.5-7b-instruct-1m
-- In-memory database with sample policies
-- Comprehensive testing and benchmarking suite
-- REST API with approval processing
-- Policy engine with rule-based decisions
-- Audit system with encrypted logging
-- JSON report generation for performance analysis
-
-🔄 **In Progress**:
-- Enhanced LLM prompt engineering
-- Advanced policy conflict resolution
-- Performance optimization
-
-## 🗺️ Roadmap
-
-### Phase 2 Features
-- Multi-modal input processing (documents, images)
-- Advanced conflict resolution algorithms
-- Predictive approval patterns using ML
-- Dynamic policy learning and adaptation
-
-### Phase 3 Features
-- Cross-enterprise policy harmonization
-- Quantum-enhanced reasoning (when available)
-- Blockchain-based audit trails
-- AI-powered policy generation
 
 ---
 
