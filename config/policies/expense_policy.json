@@ -1,0 +1,44 @@
+{
+  "policyId": "expense_policy_v1",
+  "policyName": "Expense Approval Policy",
+  "effectiveDate": "2024-01-01T00:00:00Z",
+  "version": "1.0",
+  "department": "Finance",
+  "rules": [
+    {
+      "id": "rule_1",
+      "condition": "amount <= 100",
+      "action": "auto_approve",
+      "confidenceThreshold": 0.9,
+      "priority": "high"
+    },
+    {
+      "id": "rule_2", 
+      "condition": "100 < amount <= 1000",
+      "action": "manager_approval",
+      "confidenceThreshold": 0.8,
+      "priority": "normal"
+    },
+    {
+      "id": "rule_3",
+      "condition": "amount > 1000",
+      "action": "executive_approval", 
+      "confidenceThreshold": 0.7,
+      "priority": "normal"
+    }
+  ],
+  "escalationTriggers": [
+    {
+      "condition": "confidence_score < 0.7",
+      "action": "human_review"
+    },
+    {
+      "condition": "policy_conflict_detected",
+      "action": "escalate_to_manager"
+    },
+    {
+      "condition": "unusual_pattern_detected",
+      "action": "security_review"
+    }
+  ]
+}
